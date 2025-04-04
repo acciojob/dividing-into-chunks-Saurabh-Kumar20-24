@@ -13,10 +13,10 @@ const divide = (arr, n) => {
 		}else{
 			if(currA.length>0){
 				result.push(currA);
-			}else{
+			}
 				currA=[num];
 				currSum=num;
-			}
+			
 		}
 	}
 	if(currA.length>0) result.push(currA);
