@@ -7,7 +7,7 @@ const divide = (arr, n) => {
 	let currSum=0;
 
 	for(let num of arr){
-		if(currSum+num<n){
+		if(currSum+num<=n){
 			currA.push(num);
 			currSum+=num;
 		}else{
